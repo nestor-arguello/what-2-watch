@@ -1,9 +1,11 @@
 import React from 'react';
 
-function App() {
+import HomePage from './pages/homepage/homepage.component'
+
+const App = () => {
   return (
     <div className="App">
-      What-2-Watch
+      <HomePage />
     </div>
   );
 }
