@@ -3,7 +3,8 @@ import React from 'react';
 const Layout = ({ children, ...props }) => {
   return (
     <div className="layout">
-      HEADER
+      <h2>HEADER</h2>
+
       {children}
     </div>
   );
